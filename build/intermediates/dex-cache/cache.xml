@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/jose/AndroidStudioProjects/Ruta14Prevencion/app/build/intermediates/pre-dexed/debug/classes-0ec387d6b887a2e1c51b5a62d2e1af670a426e95.jar"
+        jar="/Users/jose/AndroidStudioProjects/Ruta14Prevencion/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da"/>
+    <item
+        dex="/Users/jose/AndroidStudioProjects/Ruta14Prevencion/app/build/intermediates/pre-dexed/debug/classes-b0514706d7716ed16af79e3d6bb5778ca26230cd.jar"
+        jar="/Users/jose/AndroidStudioProjects/Ruta14Prevencion/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+    <item
+        dex="/Users/jose/AndroidStudioProjects/Ruta14Prevencion/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-3935b985b9e9e3996cbd763cc17cb57b6d7e33ef.jar"
+        jar="/Users/jose/AndroidStudioProjects/Ruta14Prevencion/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="/Users/jose/AndroidStudioProjects/Ruta14Prevencion/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-fd6d1478b8c07b898e5a631f442815753f4ba0ca.jar"
+        jar="/Users/jose/devel/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+    <item
+        dex="/Users/jose/AndroidStudioProjects/Ruta14Prevencion/app/build/intermediates/pre-dexed/debug/classes-bde2545d8a8203a34b1478d46be1e511a27ae3ff.jar"
+        jar="/Users/jose/AndroidStudioProjects/Ruta14Prevencion/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
+
+</pre-dex-items>
