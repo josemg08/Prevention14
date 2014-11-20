@@ -8,6 +8,7 @@ import android.location.LocationManager;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -107,10 +108,16 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
     }
 
     public void goToForm(View view) {
-        Intent intent = new Intent(this, Form.class);
-        intent.putExtra("longitud", myLocation.longitude);
-        intent.putExtra("latitud", myLocation.latitude);
-        startActivity(intent);
+        if(myLocation != null) {
+            Intent intent = new Intent(this, Form.class);
+            intent.putExtra("longitud", myLocation.longitude);
+            intent.putExtra("latitud", myLocation.latitude);
+            startActivity(intent);
+        }
+        else{
+            Toast.makeText(getApplicationContext(),
+                    R.string.toast_no_location, Toast.LENGTH_LONG).show();
+        }
     }
 
 }

@@ -6,6 +6,7 @@
     <string name="accident_type">Accident type</string>
     <string name="name">Name</string>
     <string name="mail">E-mail</string>
+    <string name="toast_no_location">Cant access now, wait for your location to get updated.</string>
 
     <string-array name="accident_type_list">
         <item>Car crash</item>

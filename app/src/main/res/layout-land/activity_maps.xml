@@ -36,7 +36,8 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:id="@+id/button"
-                android:background="@drawable/send_info_selector" />
+                android:background="@drawable/send_info_selector"
+                android:onClick="goToForm" />
 
         </LinearLayout>
 
