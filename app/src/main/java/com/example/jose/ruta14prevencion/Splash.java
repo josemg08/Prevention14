@@ -17,6 +17,7 @@ public class Splash extends Activity implements Runnable{
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.splash);
+        //TODO add tutorial images when first start and better graphics
 
         mThread = new Thread(this);
 
@@ -28,7 +29,7 @@ public class Splash extends Activity implements Runnable{
     {
         try
         {
-            Thread.sleep(5000);
+            Thread.sleep(4000);
         }
         catch (Exception e)
         {
