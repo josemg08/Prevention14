@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Ruta14Prevencion</string>
+    <string name="app_name">prevention14Route</string>
     <string name="title_activity_maps">Map</string>
+    <string name="accident_type">Accident type</string>
+
+    <string-array name="accident_type_list">
+        <item>Car crash</item>
+        <item>Fire</item>
+        <item>Other</item>
+    </string-array>
 
 </resources>

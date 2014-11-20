@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ruta14Prevencion</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="accident_type">Tipo de accidente</string>
+
+    <string-array name="accident_type_list">
+        <item>Choque</item>
+        <item>Incendio</item>
+        <item>Otro</item>
+    </string-array>
+
+</resources>

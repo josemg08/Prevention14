@@ -2,8 +2,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:weightSum="10"
-    android:onClick="goToForm">
+    android:weightSum="10">
 
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
@@ -16,14 +15,31 @@
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="9">
+        android:layout_weight="9"
+        android:weightSum="3">
 
-        <Button
+        <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:id="@+id/button"
-            android:background="@drawable/send_info_selector" />
+            android:layout_weight="2"
+            android:background="#d8dbdbdb" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/button"
+                android:background="@drawable/send_info_selector" />
+
+        </LinearLayout>
 
     </LinearLayout>
+
 
 </LinearLayout>

@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 /**
- * Created by jose on 11/11/14.
+ * Created by JoseMaria on 11/11/14.
  */
 public class Splash extends Activity implements Runnable{
 

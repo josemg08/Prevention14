@@ -1,17 +1,22 @@
 package com.example.jose.ruta14prevencion;
 
 import android.content.Context;
+import android.content.Intent;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 
+/**
+ * Created by JoseMaria on 01/11/14.
+ */
 public class MapsActivity extends FragmentActivity implements LocationListener{
 
     private GoogleMap mMap; // Might be null if Google Play services APK is not available.
@@ -98,6 +103,11 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
     @Override
     public void onProviderDisabled(String provider) {
 
+    }
+
+    public void goToForm(View view) {
+        Intent intent = new Intent(this, Form.class);
+        startActivity(intent);
     }
 
 }
