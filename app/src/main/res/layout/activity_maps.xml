@@ -3,7 +3,8 @@
     android:layout_height="fill_parent"
     android:orientation="vertical"
     android:weightSum="10"
-    android:onClick="goToForm">
+    android:background="@drawable/theater_background"
+    android:clickable="false">
 
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
@@ -22,7 +23,8 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:id="@+id/button"
-            android:background="@drawable/send_info_selector" />
+            android:background="@drawable/send_info_selector"
+            android:onClick="goToForm"/>
 
     </LinearLayout>
 

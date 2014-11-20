@@ -1,7 +1,9 @@
 package com.example.jose.ruta14prevencion;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
@@ -10,8 +12,9 @@ import android.widget.Spinner;
  */
 
 public class Form extends Activity{
-    Spinner spinner;
-    ArrayAdapter adapter;
+    private Spinner spinner;
+    private ArrayAdapter adapter;
+    private Double latitud, longitud;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +26,14 @@ public class Form extends Activity{
 
         spinner = (Spinner) findViewById(R.id.spinner);
         spinner.setAdapter(adapter);
+
+        Intent intent = getIntent();
+        latitud = intent.getDoubleExtra("latitud", 0);
+        longitud = intent.getDoubleExtra("longitud", 0);
+    }
+
+    public void SendInfo(View view) {
+        //TODO make an HTTP request and send info somehow and somewhere...
     }
 
 }

@@ -21,6 +21,7 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
 
     private GoogleMap mMap; // Might be null if Google Play services APK is not available.
     private LocationManager locationManager;
+    private LatLng myLocation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,7 +85,7 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
      */
     @Override
     public void onLocationChanged(Location location) {
-        LatLng myLocation = new LatLng(location.getLatitude(), location.getLongitude());
+        myLocation = new LatLng(location.getLatitude(), location.getLongitude());
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(myLocation, 10));
         //TODO change this or something like this to the setUpMap method
         //perhaps it would be a good idea to change de camera here to but whit no zoom in.
@@ -107,6 +108,8 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
 
     public void goToForm(View view) {
         Intent intent = new Intent(this, Form.class);
+        intent.putExtra("longitud", myLocation.longitude);
+        intent.putExtra("latitud", myLocation.latitude);
         startActivity(intent);
     }
 

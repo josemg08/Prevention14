@@ -9,7 +9,7 @@ import android.os.Bundle;
  */
 public class Splash extends Activity implements Runnable{
 
-    Thread mThread;
+    private Thread mThread;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)

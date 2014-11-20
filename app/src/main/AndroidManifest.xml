@@ -26,8 +26,10 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="com.example.jose.ruta14prevencion.MapsActivity"
-            android:label="@string/title_activity_maps">
+            android:name="com.example.jose.ruta14prevencion.MapsActivity">
+        </activity>
+        <activity
+            android:name="com.example.jose.ruta14prevencion.Form">
         </activity>
         <activity android:name=".Splash">
             <intent-filter>
